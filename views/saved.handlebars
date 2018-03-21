@@ -1,0 +1,12 @@
+<h1>E-book News Aggregator</h1>
+
+<div id="article">
+  <h2>Articles</h2>
+  <ul>
+    {{#each article}}
+        {{!-- {{#if saved}} --}}
+            {{> article-ind-saved}}
+        {{!-- {{/if}} --}}
+    {{/each}}
+  </ul>
+</div>

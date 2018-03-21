@@ -1,0 +1,20 @@
+<h1>E-book News Aggregator</h1>
+
+<div id="new-articles">
+  <h2>Search for new Articles</h2>
+  <div class="button-holder">
+    <button id= "good-e-reader" type="submit">Good E-reader</button>
+    <button id= "ebook-reader" type="submit">The Ebook Reader</button>
+  </div>
+</div>
+
+<div id="article">
+  <h2>Articles</h2>
+  <ul>
+    {{#each article}}
+        {{!-- {{#unless saved}} --}}
+            {{> article-ind}}
+        {{!-- {{/unless}} --}}
+    {{/each}}
+  </ul>
+</div>

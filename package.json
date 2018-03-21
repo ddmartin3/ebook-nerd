@@ -1,0 +1,36 @@
+{
+  "name": "ebook-news-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes articles off of Darwood's two favorite ebook news sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddmartin3/Ebook-News-Scraper.git"
+  },
+  "keywords": [
+    "mongoose",
+    "mongodb",
+    "cheerio",
+    "scraper",
+    "express",
+    "handlebars"
+  ],
+  "author": "Darwood Martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddmartin3/Ebook-News-Scraper/issues"
+  },
+  "homepage": "https://github.com/ddmartin3/Ebook-News-Scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.0.10",
+    "morgan": "^1.9.0",
+    "request": "^2.85.0"
+  }
+}

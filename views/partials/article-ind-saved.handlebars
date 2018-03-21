@@ -1,0 +1,17 @@
+<div class="article-ind">
+        <h2>{{headline}}</h2>
+         <div>
+            <h4>Preview:</h4>
+            <a href="{{url}}">
+                <p>
+                    {{summary}}
+                </p>
+            </a>
+        </div>
+          <form class="create-form">
+            <div class="form-group">
+            <textarea id="comment" name="comment" rows="4" cols="50">Write a comment here</textarea>
+        </div>
+        <button data-id={{_id}} type="submit">Submit Comment</button>
+  </form>
+</div>
